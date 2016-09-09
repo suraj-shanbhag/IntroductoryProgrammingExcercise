@@ -27,13 +27,10 @@ public class IsoscelesTriange {
         printAsterisks(numAsterisk);
         System.out.println();
     }
-
-
+    
     public static int findNumAsterisk(int i){
         return 2 * i + 1;
     }
-
-
 
     public static int numberOfSpaces(int i, int n){
         return n - i - 1;
